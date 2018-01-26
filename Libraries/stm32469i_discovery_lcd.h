@@ -46,12 +46,12 @@
 /* Include LCD component Driver */
 
 /* Include OTM8009A LCD Driver IC driver code */
-#include "../Components/otm8009a/otm8009a.h"
+#include "otm8009a.h"
 
 /* Include SDRAM Driver */
 #include "stm32469i_discovery_sdram.h"
 #include "stm32469i_discovery.h"
-#include "../../../Utilities/Fonts/fonts.h"
+#include "fonts.h"
 
 #include <string.h> /* use of memset() */
 
@@ -371,7 +371,7 @@ void     BSP_LCD_DisplayOn(void);
   */
 
 /* @brief DMA2D handle variable */
-extern DMA2D_HandleTypeDef hdma2d_eval;
+extern DMA2D_HandleTypeDef hdma2d;
 
 /**
   * @}

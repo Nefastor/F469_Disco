@@ -52,9 +52,9 @@
 #endif
 
 /* Include audio component Driver */
-#include "../Components/cs43l22/cs43l22.h"
+#include "cs43l22/cs43l22.h"
 #include "stm32469i_discovery.h"
-#include "../../../Middlewares/ST/STM32_Audio/Addons/PDM/Inc/pdm2pcm_glo.h"
+#include "../Middlewares/ST/STM32_Audio/Addons/PDM/Inc/pdm2pcm_glo.h"
 
 /** @addtogroup BSP
   * @{

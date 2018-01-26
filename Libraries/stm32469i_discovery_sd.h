@@ -126,11 +126,11 @@ uint8_t BSP_SD_WriteBlocks_DMA(uint32_t *pData, uint32_t WriteAddr, uint32_t Num
 uint8_t BSP_SD_Erase(uint32_t StartAddr, uint32_t EndAddr);
 uint8_t BSP_SD_GetCardState(void);
 void    BSP_SD_GetCardInfo(HAL_SD_CardInfoTypeDef *CardInfo);
-uint8_t BSP_SD_IsDetected(void);
+uint8_t BSP_SD_IsDetected_(void);
 
 /* These functions can be modified in case the current settings (e.g. DMA stream)
    need to be changed for specific application needs */
-void    BSP_SD_MspInit(SD_HandleTypeDef *hsd, void *Params);
+void    BSP_SD_MspInit_(SD_HandleTypeDef *hsd, void *Params);
 void    BSP_SD_Detect_MspInit(SD_HandleTypeDef *hsd, void *Params);
 void    BSP_SD_MspDeInit(SD_HandleTypeDef *hsd, void *Params);
 void    BSP_SD_AbortCallback(void);
