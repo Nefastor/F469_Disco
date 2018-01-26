@@ -221,6 +221,8 @@
 #define A10_GPIO_Port GPIOG
 #define D5_Pin GPIO_PIN_8
 #define D5_GPIO_Port GPIOE
+#define LCD_RESET_Pin GPIO_PIN_7
+#define LCD_RESET_GPIO_Port GPIOH
 #define D17_Pin GPIO_PIN_9
 #define D17_GPIO_Port GPIOH
 #define D19_Pin GPIO_PIN_11
