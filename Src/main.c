@@ -53,7 +53,7 @@
 #include "usb_host.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "stm32469i_discovery_lcd.h"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
